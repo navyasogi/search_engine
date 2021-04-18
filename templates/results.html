@@ -1,0 +1,19 @@
+<div style="background-color: #9B6AB3"> 
+<center>
+	<p style="font-size: 30px"><i><b>Navya Sogi</b></i></p>
+    <p style="font-size: 30px"><i><b>1001753085</b></i></p><br>
+
+
+<form action="search">
+  <input name="q" value="{{q}}">
+  <input type="submit">
+</form>
+
+
+<ul>
+  {% for filename, line_number in results %}
+    <li>{{line_number}} - {{filename}}</li>
+  {% endfor %}
+</ul>
+</center>
+</div>

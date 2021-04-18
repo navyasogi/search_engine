@@ -1,0 +1,6 @@
+__pycache__
+venv
+large-sample/
+small-sample/
+sample.tar.bz2
+sample.zip
